@@ -24,9 +24,10 @@ public class Limelight {
         table = NetworkTableInstance.getDefault().getTable("limelight");
         tv = table.getEntry("tv");
         tx = table.getEntry("tx");
-        tx = table.getEntry("tx");
+        ty = table.getEntry("ty");
         ta = table.getEntry("ta");
     }
+
 
     public static void update() {
         table.getEntry("pipeline").setNumber(pipeline);
